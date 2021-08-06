@@ -31,3 +31,28 @@ body{
 .player{
   padding: 0 10px 0 10px;
 }
+
+.p1{
+  position: relative;
+}
+.p1::after{
+  content: url(./assets/player1.png);
+  line-height: 100px;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.p2{
+  position: relative;
+}
+.p2::after{
+  content: url(./assets/player2.png);
+  line-height: 100px;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
