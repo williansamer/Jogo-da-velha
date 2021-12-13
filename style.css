@@ -25,6 +25,7 @@ body{
   border: 1px solid gray;
   box-shadow: 2px 2px 2px gray;
   display: inline-block;
+  cursor: pointer;
 }
 
 .players{
@@ -80,4 +81,5 @@ body{
   border-radius: 15px;
   font-weight: bold;
   padding: 7px;
+  cursor: pointer;
 }
